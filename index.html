@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=héder, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .table-with-border {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+
+            /* Khoảng cách giữa các bảng */
+            th {
+                text-align: left;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <p>
+        <h1>My Resume</h1>
+        <a href="#SKILLS"> My Skill </a> | <a href="#Education"> My education</a> | <a href="#Contact"> My contact</a>
+
+        <p>
+            <img src="images/TranPhongHai.JPG" width="350" height="" alt="TranPhongHai">
+        </p>
+
+        <P>
+        <h2>Trần Phong Hải </h2>
+        </P>
+        <P>
+        <h4> Data Analyst</h3>
+            </P>
+            <p>
+            <h2> INFO: </h2>
+            </p>
+
+            <div>
+                <img src="images/location.png" alt="Location">
+                <span> Address: Mang Thít, Vinh Long</span>
+            </div>
+            <P>
+
+            </P>
+            <div>
+                <img src="images/call.png" <span> Phone: +84 0332255916</span>
+            </div>
+
+            <p></p>
+
+            <div>
+                <img src="images/mail.png" <span> Email: haitpce180803@fpt.edu.vn</span>
+            </div>
+            </p>
+
+    </header>
+    <main>
+        <section id=Profile>
+            <h3>PROFILE: </h3>
+            I have many years of experience in data analysis. I studied and worked for 2 years at FPT technology
+            corporation in data analysis and website management.
+        </section>
+
+        <section id=WorkExperience>
+            <h3>WORK EXPERIENCE: </h3>
+            <ol>
+                <li><strong> 01/2022</strong></li>
+                <li><strong> 2/2555</strong></li>
+                </pl>
+        </section>
+
+        <section id="Education">
+            <h2> <strong> EDUCATION:</strong> </h2>
+
+            <head>
+                <style>
+                    table,
+                    th,
+                    td {
+                        border: 2px solid black;
+                    }
+
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+            </head>
+
+            <table>
+                <tr>
+                    <th>
+                        <center>Years</center>
+                    </th>
+                    <th>
+                        <center>
+                            Qualification
+                        </center>
+                    </th>
+                    <th>
+                        <center>
+                            Study place
+                        </center>
+                    </th>
+                </tr>
+
+                <tbody>
+                    <tr>
+                        <td>2023-2026</td>
+                        <td>Unviversity</td>
+                        <td>FPT University</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>2020-2022</td>
+                        <td>High school education</td>
+                        <td>Mang Thit High school</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>2016-2019</td>
+                        <td>Secondary school education</td>
+                        <td>Thi Tran Cai Nhum Secondary school</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>2011-2015</td>
+                        <td>Primary school education</td>
+                        <td>Thi Tran Cai Nhum Primary school</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </section>
+
+
+
+        <section id="SKILLS">
+            <h2><strong>SKILLS:</strong></h2>
+            <p>HTML (90%) <progress id="progressBar" value="0.9" max="1"></progress></p>
+            <p>CSS (80%) <progress id="progressBar" value="0.8" max="1"></progress></p>
+            <p>JavaScript (60%) <progress id="progressBar" value="0.6" max="1"></progress></p>
+        </section>
+
+        <section id="Hobby">
+            <h2>HOBBY:</h2>
+            <p><img src="images/video.png" alt="video">
+                <span><strong>Video:</strong> Doraemon</span>
+            </p>
+            <video controls>
+                <source src="data/DoraemonTheMovie2017.mp4">
+            </video>
+            <p><img src="images/news.png" alt="News" width="100" height="80">
+                <strong>NEWS :</strong> vietnam.net
+            </p>
+            <p>
+                <img src="images/baibao.png" alt="baibao" width="1000" height="500">
+
+            </p>
+            <img src="images/music.png" alt="music">
+            <strong>Music: </strong> Lối Nhỏ<br>
+            <audio controls>
+                <source src="data/Loi-Nho-Den-Phuong-Anh-Dao.mp3">
+            </audio>
+        </section>
+
+        <section id="Contact">
+            <h4>CONTACT:</h4>
+            <table class="table-with-border">
+
+                <form action="/action_page.php">
+                    <th>
+
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Phone:</label>
+                        <input type="number" id="lname" name="lname"><br>
+                        <label for="lname">Email:</label>
+                        <input type="email" id="lname" name="lname"><br>
+                        <span>Gender:</span>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="Female">Female</label><br>
+
+                        <span>Choose interests:</span>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Java</label>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> CSharp</label>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> HTML</label>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> CSS</label><br>
+                        <label for="city">Support:</label>
+                        <select name="city" id="city">
+                            <option value="sydney">HTML</option>
+                            <option value="melbourne">CSS</option>
+                            <option value="cromwell">CSharp</option>
+                            <option value="cromwell">PHP</option>
+                        </select><br>
+                        <span>Content:</span><br>
+                        <textarea name="message" rows="5" cols="28"></textarea><br>
+                        <input type="submit" value="Sent">
+                        <input type="submit" value="Reset"><br>
+                    </th>
+
+                </form>
+            </table>
+
+        </section>
+    </main>
+    <footer>
+        &copy;
+        <span>Copyright 2024, Design by Tran Phong Hai</span>
+    </footer>
+
+</body>
+
+
+</html>
